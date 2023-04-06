@@ -1,6 +1,30 @@
 @charset "UTF-8";
 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+#background__image {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), no-repeat url('../img/comprimida/background__image.jpg');
+    color: white;
+}
+
+.montserrat {
+    font-family: 'Montserrat';
+}
+
+.div_section--background {
+    padding: 200px 0px;
+    text-align: center;
+}
+
+.menu__transpente {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
 }
