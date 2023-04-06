@@ -6,13 +6,22 @@
     src: url('../fonts/Montserrat/static/Montserrat-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'Montserrat__Subrayada';
+    src: url('../fonts/Montserrat_Subrayada/MontserratSubrayada-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat__Alternates';
+    src: url('../fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf');
+}
 * {
     margin: 0;
     padding: 0;
 }
 
 #background__image {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), no-repeat url('../img/comprimida/background__image.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), no-repeat url('../img/comprimida/background__image.webp');
     color: white;
 }
 
@@ -21,10 +30,33 @@
 }
 
 .div_section--background {
-    padding: 200px 0px;
+    padding: 220px 0px;
     text-align: center;
 }
 
 .menu__transpente {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+}
+
+.nav-link {
+    color: white;
+}
+
+
+/* Styles of session_about */
+.width__50 {
+    width: 50%;
+}
+
+.border-red {
+    border: 10px solid black;
+}
+
+.paragraph {
+    line-height: 33px;
+    font-family: 'Montserrat__Alternates';
+}
+
+.Montserrat__Subrayada {
+    font-family: 'Montserrat__Subrayada';
 }
